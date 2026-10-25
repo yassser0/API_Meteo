@@ -1,0 +1,47 @@
+# Environnement virtuel Python
+venv/
+.venv/
+env/
+.env
+
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Exports générés
+exports/*.json
+exports/*.csv
+
+# Logs
+*.log
+logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Mypy
+.mypy_cache/
+
+# Variables d'environnement
+.env.local
+.env.production
